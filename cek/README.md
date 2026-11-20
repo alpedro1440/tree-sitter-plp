@@ -23,9 +23,5 @@ Program melaporkan:
 Direktori `.git`, `.venv`, `venv`, `env`, `node_modules`, `__pycache__`, `.mypy_cache`, dan
 `.pytest_cache` dilewati agar pemindaian tidak membuang waktu pada lingkungan atau cache.
 
-## Pengujian
 
-Folder `uji/` berisi fixture buatan: satu file valid dengan TODO dan fungsi panjang, serta satu
-file yang sengaja salah sintaks. Setelah uji awal berhasil, jalankan juga tool pada repositori
-Python nyata dan periksa dua file secara manual. Catat repositori, dua file yang diperiksa,
-dan apakah setiap temuan benar di laporan akhir.
+
