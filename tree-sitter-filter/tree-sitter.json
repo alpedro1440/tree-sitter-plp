@@ -1,0 +1,29 @@
+{
+  "grammars": [
+    {
+      "name": "filter",
+      "camelcase": "Filter",
+      "scope": "source.filter",
+      "path": ".",
+      "file-types": ["filter"],
+      "injection-regex": "^filter$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Grammar Tree-sitter untuk DSL filter halaman admin",
+    "authors": [],
+    "links": {}
+  },
+  "bindings": {
+    "c": true,
+    "node": true,
+    "python": false,
+    "rust": false,
+    "go": false,
+    "swift": false,
+    "zig": false
+  },
+  "highlights": "queries/highlights.scm"
+}
