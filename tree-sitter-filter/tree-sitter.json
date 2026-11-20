@@ -6,6 +6,7 @@
       "scope": "source.filter",
       "path": ".",
       "file-types": ["filter"],
+      "highlights": "queries/highlights.scm",
       "injection-regex": "^filter$"
     }
   ],
@@ -23,6 +24,5 @@
     "go": false,
     "swift": false,
     "zig": false
-  },
-  "highlights": "queries/highlights.scm"
+  }
 }
