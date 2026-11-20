@@ -9,7 +9,6 @@ status = "open"
 (query
   (comparison
     field: (identifier)
-    operator: "="
     value: (string)))
 
 ==================
@@ -24,16 +23,13 @@ a = 1 or b = 2 and c = 3
   (or_expression
     left: (comparison
       field: (identifier)
-      operator: "="
       value: (number))
     right: (and_expression
       left: (comparison
         field: (identifier)
-        operator: "="
         value: (number))
       right: (comparison
         field: (identifier)
-        operator: "="
         value: (number)))))
 
 ==================
@@ -50,15 +46,12 @@ kurung mengubah pengelompokan
       expression: (or_expression
         left: (comparison
           field: (identifier)
-          operator: "="
           value: (number))
         right: (comparison
           field: (identifier)
-          operator: "="
           value: (number))))
     right: (comparison
       field: (identifier)
-      operator: "="
       value: (number))))
 
 ==================
@@ -73,7 +66,6 @@ not archived = true
   (not_expression
     operand: (comparison
       field: (identifier)
-      operator: "="
       value: (boolean))))
 
 ==================
@@ -116,5 +108,4 @@ rating > 4.5
 (query
   (comparison
     field: (identifier)
-    operator: ">"
     value: (number)))

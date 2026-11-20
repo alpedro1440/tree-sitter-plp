@@ -13,8 +13,7 @@
     "version": "0.1.0",
     "license": "MIT",
     "description": "Grammar Tree-sitter untuk DSL filter halaman admin",
-    "authors": [],
-    "links": {}
+    "authors": []
   },
   "bindings": {
     "c": true,
